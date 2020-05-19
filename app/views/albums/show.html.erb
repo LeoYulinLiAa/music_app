@@ -1,0 +1,6 @@
+<h1><%= @album.title %></h1>
+<ul>
+  <li>Year: <%= @album.year %></li>
+  <li>Band: <%= @album.band.name %></li>
+  <li>Type: <%= @album.is_live? ? "Live" : "Studio" %></li>
+</ul>
